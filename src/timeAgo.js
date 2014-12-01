@@ -41,24 +41,6 @@ angular.module('yaru22.angular-timeago', [
     refreshMillis: 60000,
     allowFuture: false,
     strings: {
-      'en_US': {
-        prefixAgo: null,
-        prefixFromNow: null,
-        suffixAgo: 'ago',
-        suffixFromNow: 'from now',
-        seconds: 'less than a minute',
-        minute: 'about a minute',
-        minutes: '%d minutes',
-        hour: 'about an hour',
-        hours: 'about %d hours',
-        day: 'a day',
-        days: '%d days',
-        month: 'about a month',
-        months: '%d months',
-        year: 'about a year',
-        years: '%d years',
-        numbers: []
-      },
       'de_DE': {
         prefixAgo: 'vor',
         prefixFromNow: null,
@@ -75,6 +57,24 @@ angular.module('yaru22.angular-timeago', [
         months: '%d Monaten',
         year: 'ca. einem Jahr',
         years: '%d Jahren',
+        numbers: []
+      },
+      'en_US': {
+        prefixAgo: null,
+        prefixFromNow: null,
+        suffixAgo: 'ago',
+        suffixFromNow: 'from now',
+        seconds: 'less than a minute',
+        minute: 'about a minute',
+        minutes: '%d minutes',
+        hour: 'about an hour',
+        hours: 'about %d hours',
+        day: 'a day',
+        days: '%d days',
+        month: 'about a month',
+        months: '%d months',
+        year: 'about a year',
+        years: '%d years',
         numbers: []
       },
       'he_IL': {
